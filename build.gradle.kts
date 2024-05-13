@@ -28,7 +28,7 @@ dependencies {
     // With compose.desktop.common you will also lose @Preview functionality
     implementation(compose.desktop.currentOs)
     implementation("org.jetbrains.compose.material3:material3-desktop:1.6.2")
-    implementation("org.jetbrains.compose.material:material-icons-extended:1.6.10-dev1613")
+    implementation("org.jetbrains.compose.material:material-icons-extended:1.6.10-dev1623")
     implementation("androidx.room:room-runtime:$roomVersion")
 //    implementation("androidx.room:room-ktx:$roomVersion")
     ksp("androidx.room:room-compiler:$roomVersion")
