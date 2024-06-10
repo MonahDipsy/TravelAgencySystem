@@ -27,7 +27,7 @@ dependencies {
     // (in a separate module for demo project and in testMain).
     // With compose.desktop.common you will also lose @Preview functionality
     implementation(compose.desktop.currentOs)
-    implementation("org.jetbrains.compose.material3:material3-desktop:1.6.10")
+    implementation("org.jetbrains.compose.material3:material3-desktop:1.6.11")
     implementation("org.jetbrains.compose.material:material-icons-extended:1.6.10")
     implementation("androidx.room:room-runtime:$roomVersion")
 //    implementation("androidx.room:room-ktx:$roomVersion")
